@@ -1,22 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://roongzhao.github.io</id>
-    <title>Rongzhao&apos;s Home</title>
-    <updated>2021-07-05T12:04:34.354Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://roongzhao.github.io"/>
-    <link rel="self" href="https://roongzhao.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://roongzhao.github.io/images/avatar.png</logo>
-    <icon>https://roongzhao.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Rongzhao&apos;s Home</rights>
-    <entry>
-        <title type="html"><![CDATA[脑洞：一种基于DAA的相亲机制]]></title>
-        <id>https://roongzhao.github.io/post/nao-dong-yi-chong-ji-yu-daa-de-xiang-qin-ji-zhi/</id>
-        <link href="https://roongzhao.github.io/post/nao-dong-yi-chong-ji-yu-daa-de-xiang-qin-ji-zhi/">
-        </link>
-        <updated>2021-07-05T10:17:16.000Z</updated>
-        <content type="html"><![CDATA[<p>五十多年前，一篇关于大学录取和婚姻稳定性的论文发表在一个不知名期刊上，开启了经济学界对匹配问题的研究，并结出累累硕果。论文的两位作者之一，<em>Lloyd Shapley</em>，与这一领域的另一位经济学家，<em>Alvin Roth</em>，由于“在稳定配置理论及市场设计实践上所作出的贡献”而分享了2012年的诺贝尔经济学奖。（遗憾的是，论文的另一作者，<em>David Gale</em>，于2008年离世了。）在这篇论文中，<em>Shapley</em>和<em>Gale</em>证明了婚姻问题总是存在稳定配对，并提出了一种得到稳定配对的方法，也就是 Deferred Acceptance Algorithm （DAA，延迟接受算法，也称“盖尔-沙普利算法”）。接下来，我们将先对匹配问题、婚姻问题和稳定配对进行解释，然后介绍DAA，最后根据现实情况设计一种可行的相亲机制。</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>脑洞：一种基于DAA的相亲机制 | Rongzhao&#39;s Home</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://roongzhao.github.io/favicon.ico?v=1625486659204">
+<link rel="stylesheet" href="https://roongzhao.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="五十多年前，一篇关于大学录取和婚姻稳定性的论文发表在一个不知名期刊上，开启了经济学界对匹配问题的研究，并结出累累硕果。论文的两位作者之一，Lloyd Shapley，与这一领域的另一位经济学家，Alvin Roth，由于“在稳定配置理论及市..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://roongzhao.github.io">
+        <img src="https://roongzhao.github.io/images/avatar.png?v=1625486659204" class="site-logo">
+        <h1 class="site-title">Rongzhao&#39;s Home</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a> | <a class="rss" href="https://roongzhao.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">脑洞：一种基于DAA的相亲机制</h2>
+            <div class="post-date">2021-07-05</div>
+            
+            <div class="post-content" v-pre>
+              <p>五十多年前，一篇关于大学录取和婚姻稳定性的论文发表在一个不知名期刊上，开启了经济学界对匹配问题的研究，并结出累累硕果。论文的两位作者之一，<em>Lloyd Shapley</em>，与这一领域的另一位经济学家，<em>Alvin Roth</em>，由于“在稳定配置理论及市场设计实践上所作出的贡献”而分享了2012年的诺贝尔经济学奖。（遗憾的是，论文的另一作者，<em>David Gale</em>，于2008年离世了。）在这篇论文中，<em>Shapley</em>和<em>Gale</em>证明了婚姻问题总是存在稳定配对，并提出了一种得到稳定配对的方法，也就是 Deferred Acceptance Algorithm （DAA，延迟接受算法，也称“盖尔-沙普利算法”）。接下来，我们将先对匹配问题、婚姻问题和稳定配对进行解释，然后介绍DAA，最后根据现实情况设计一种可行的相亲机制。</p>
 <h2 id="匹配问题-婚姻问题和稳定配对">匹配问题、婚姻问题和稳定配对</h2>
 <p>因为这几个概念比较抽象，解释起来有些困难，所以我们先设置一下背景。假设有固定的 <em>N</em> 个人一起出去玩，他们一起租了一套房子，这套房子有无限个双人间，每个人都可以选择单独住一间，或者和另一个人一起住一间。每个人对室友的偏好可以不同（也可以相同），我们用 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mo>≻</mo><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">\succ_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6891em;vertical-align:-0.15em;"></span><span class="mrel"><span class="mrel">≻</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 表示个体 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span> 的严格偏好：“张三<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mo>≻</mo><mtext>李四</mtext></msub></mrow><annotation encoding="application/x-tex">\succ_\text{李四}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6891em;vertical-align:-0.15em;"></span><span class="mrel"><span class="mrel">≻</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">李四</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>李四<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mo>≻</mo><mtext>李四</mtext></msub></mrow><annotation encoding="application/x-tex">\succ_\text{李四}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6891em;vertical-align:-0.15em;"></span><span class="mrel"><span class="mrel">≻</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">李四</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>王五”表示“李四觉得，跟张三一起住比自己单独住要好，自己单独住比跟王五一起住要好”。如果“李四<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mo>≻</mo><mtext>李四</mtext></msub></mrow><annotation encoding="application/x-tex">\succ_\text{李四}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6891em;vertical-align:-0.15em;"></span><span class="mrel"><span class="mrel">≻</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">李四</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>王五”，那么对于李四来说，王五是“不可接受的”（“即使世界上只剩下你一个男人/女人，我也不会和你结婚的！”）。我们假设偏好是严格的，也就是说，不存在“张三觉得，李四和王五一样好”这种情况。</p>
 <ol>
@@ -73,38 +151,46 @@
 </ol>
 <p>考虑到邀约的主动权可能导致不同的稳定配对，并且这个稳定配对对发起方有利，我们认为应该考虑一种公平的方式分配主动权，比如：掷骰子。</p>
 <p>最后，在一个相亲局中，男性和女性的数量可能并不相同，并且很可能出现“谁也看不上”的人，所以一个稳定匹配当然可能有人落单。幸运的是，（或者说，令人同情的是），如果一个人在某个稳定匹配中是单身，那么ta在另一个稳定匹配中也是单身。因此如果一个人在某次配对中落单，我们可以自信地宣布，这不是机制的问题。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://roongzhao.github.io/post/hello-gridea/</id>
-        <link href="https://roongzhao.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
-]]></content>
-    </entry>
-</feed>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://roongzhao.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
