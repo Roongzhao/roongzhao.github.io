@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author: 
   # Biographic information
-  avatar           : "images/rongzhaophoto.png"
+  avatar           : images/rongzhaophoto.png
   name             : "Rongzhao Zhu"
   pronouns         : "he/his"  
   bio              : "PhD candidate in Economics"
