@@ -11,7 +11,7 @@ I am a fourth-year PhD candidate from the Research School of Economics, Australi
 
 I am very fortunate to be advised by [Jose Rodrigues-Neto](https://rse.anu.edu.au/about/staff-directory/associate-professor-jose-rodrigues-neto), [Idione Meneghel](https://rse.anu.edu.au/about/staff-directory/associate-professor-idione-meneghel) and [Ruitian Lang](https://rse.anu.edu.au/about/staff-directory/dr-ruitian-lang) from the Research School of Economics, Australian National University.
 
-You can find my CV here: **TBD**
+You can find my CV [here](.../assets/CV_RongzhaoZhu.pdf).
 
 [Email](mailto:rongzhao.zhu@anu.edu.au): rongzhao.zhu@anu.edu.au
 
