@@ -22,13 +22,13 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author: 
   # Biographic information
-  avatar           : images/rongzhaophoto.png
+  avatar           : "images/rongzhaophoto.png"
   name             : "Rongzhao Zhu"
   pronouns         : "he/his"  
   bio              : "PhD candidate in Economics"
   location         : "Canberra, Australia"
   employer         : "Australian National University"
-  uri              : # URL
+  uri              : "https://roongzhao.github.io"
   email            : "rongzhao.zhu@anu.edu.au" 
 
   # Academic websites
