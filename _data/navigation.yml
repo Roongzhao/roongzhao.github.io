@@ -8,15 +8,21 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Research"
-    url: /publications/
+  # - title: "Publication"
+  #   url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  # - title: "Talks"
+  #   url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Teaching"
+  #   url: /teaching/    
     
+  - title: "Research"
+    url: /researchtemp/ #using a single page rather than the fancy function from the template. The related .md file is in "temp".
+  
+  - title: "Teaching"
+    url: /teachingtemp/ #using a single page rather than the fancy function from the template. The related .md file is in "temp".
+
   - title: "CV"
     url: /cv/
 
