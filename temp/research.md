@@ -1,10 +1,8 @@
 ---
 layout: archive
 title: "Research"
-permalink: /cv/
+permalink: /researchtemp/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
