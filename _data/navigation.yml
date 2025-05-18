@@ -18,7 +18,7 @@ main:
   #   url: /teaching/    
     
   - title: "Research"
-    url: /researchtemp/ #using a single page rather than the fancy function from the template. The related .md file is in "temp".
+    url: /research/ #using a single page rather than the fancy function from the template. The related .md file is in "temp".
   
   - title: "Teaching"
     url: /teachingtemp/ #using a single page rather than the fancy function from the template. The related .md file is in "temp".
