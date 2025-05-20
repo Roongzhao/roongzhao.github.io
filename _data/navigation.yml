@@ -19,10 +19,13 @@ main:
     
   - title: "Research"
     url: /research/ #using a single page rather than the fancy function from the template. The related .md file is "research.md" in "_pages".
-  
+
+  - title: "Presentation"
+    url: /presentation/ #using a single page rather than the fancy function from the template. The related .md file is "presentation.md" in "_pages".
+
   - title: "Teaching"
     url: /teach/ #using a single page rather than the fancy function from the template. The related .md file is "teach.md" in "_pages".
-
+    
   - title: "CV"
     url: /cv/
 
