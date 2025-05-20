@@ -15,5 +15,6 @@ author_profile: true
 # Working in Progress
 **Status Goods and Inequality**
 - With Rogério Mazali and José A. Rodrigues-Neto
+
 **Estimation of Deliberately Stochastic Model**
 - With Sh. L. Liu and Jingni Yang
