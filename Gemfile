@@ -1,13 +1,12 @@
 source 'https://rubygems.org'
 
+# Use GitHub Pages gem (pins Jekyll + plugins to the same versions used on github.io)
 group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-redirect-from'
-  gem 'jemoji'
-  gem 'webrick', '~> 1.8'
+  gem 'github-pages', '~> 229', require: false
 end
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+# On Windows, provide IANA time-zone data to TZInfo (avoids "No source of timezone data" errors)
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]  
+
+# On Ruby 3+, add webrick so `jekyll serve` can spin up a local webserver
+gem 'webrick', '~> 1.8'  
