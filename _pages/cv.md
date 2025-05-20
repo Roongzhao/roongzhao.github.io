@@ -17,7 +17,7 @@ Ph.D in Economics, Australian National University, 2025 (expected)
 - Supervisory panel: José A. Rodrigues-Neto (Chair), Ruitian Lang, Idione Meneghel
 - Research interest: Applied Game Theory, Decision Theory
 
-Master of Economics,Australian National University, 2021
+Master of Economics, Australian National University, 2021
 - Awarded with Commendation
 
 Bachelor of Philosophy and Bachelor of Economics (Minor), Wuhan University, 2019
