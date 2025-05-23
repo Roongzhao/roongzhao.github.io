@@ -56,6 +56,8 @@ Teaching
 Skills
 ======
 **Programming:** Python
+
 **Data Analysis:** Eviews, STATA
+
 **Language:** Mandarin (Native), English (Fluent)
 
