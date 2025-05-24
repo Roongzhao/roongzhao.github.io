@@ -15,7 +15,7 @@ Education
 ======
 Ph.D in Economics, Australian National University, 2025 (expected)
 - Supervisory panel: José A. Rodrigues-Neto (Chair), Ruitian Lang, Idione Meneghel
-- Research interest: Applied Game Theory, Decision Theory
+- Research interest: Applied Game Theory, Decision Theory and Structural Estimation
 
 Master of Economics, Australian National University, 2021
 - Awarded with Commendation
@@ -24,12 +24,12 @@ Bachelor of Philosophy and Bachelor of Economics (Minor), Wuhan University, 2019
 
 Research
 ======
-**Family Time-Income Allocation** (with José A. Rodrigues-Neto), *Working paper*
+**Family Time-Income Allocation** (with José A. Rodrigues-Neto), *working paper*
   - *Abstract*: This paper models the time and income allocation of a two-agent family. Each agent chooses the time they spend producing a household public good and the time working to earn income. Agents have interdependent (altruistic) preferences and can make a voluntary financial transfer to the other agent. We find the Nash equilibrium (NE) of the non-cooperative game, and the corresponding allocation and utilities. We compare the non-cooperative NE to Pareto efficient allocations. In a cooperative family, agents allocate their time and income by symmetric Nash bargaining, using the non-cooperative NE as the disagreement point. Finally, this paper calculates the marginal effects in each agent's ability to earn income on the cooperative income allocation and the indirect utility.
 
-**Status Goods and Inequality** (with Rogério Mazali and José A. Rodrigues-Neto), *Working in progress*
+**Status Goods and Inequality** (with Rogério Mazali and José A. Rodrigues-Neto), *in progress*
   
-**Estimation of Deliberately Stochastic Model** (with Sh. L. Liu and Jingni Yang), *Working in progress*
+**Estimation of Deliberately Stochastic Model** (with Sh. L. Liu and Jingni Yang), *in progress*
 
 Presentation
 ======
