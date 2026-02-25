@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Rongzhao's Homepage"
+title                    : "Rongzhao Zhu"
 title_separator          : "-"
 name                     : &name "Rongzhao Zhu"
 description              : &description "PhD candidate in Economics"
