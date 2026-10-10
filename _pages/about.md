@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Economics at the Research School of Economics, Australian National University (ANU). My Ph.D. committee includes José A. Rodrigues-Neto (Chair, ANU), Idione Meneghel (ANU), Ruitian Lang (ANU), Ronald Stauber (ANU), and Han Bleichrodt (University of Alicante).
+I am a Ph.D. candidate in Economics at the Research School of Economics, Australian National University (ANU). My Ph.D. committee includes José A. Rodrigues-Neto (Chair, ANU), Idione Meneghel (ANU), Ruitian Lang (ANU), and Han Bleichrodt (University of Alicante).
 
 I expect to complete my Ph.D. in 2027. **I am on the 2026–2027 Economics Job Market.**
 

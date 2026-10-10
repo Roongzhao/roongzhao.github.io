@@ -3,8 +3,6 @@ layout: archive
 title: "Teaching"
 permalink: /teach/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
@@ -15,4 +13,4 @@ redirect_from:
 - Behavioral Economics (Undergraduate): 2022 S2, 2023 S2
 - Strategic Thinking: An Introduction to Game Theory (Undergraduate): 2023 S1
 
-Note: 'S' stands for "Semester".
+*Note: 'S' stands for "Semester".*
