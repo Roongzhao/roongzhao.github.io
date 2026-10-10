@@ -13,7 +13,7 @@ redirect_from:
 
 [Download CV (PDF)](../assets/CV_RongzhaoZhu.pdf)
 
-<iframe>
+<iframe
   src="{{ '/assets/CV_RongzhaoZhu.pdf' | relative_url }}"
   width="100%"
   height="1050px"
