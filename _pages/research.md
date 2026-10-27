@@ -9,7 +9,7 @@ author_profile: true
 
 ## Job Market Paper
 
-**Time and Income Allocation in Non-cooperative and Cooperative Families** (with José A. Rodrigues-Neto)
+**Time and Income Allocation in Non-cooperative and Cooperative Families** (with José A. Rodrigues-Neto) [[PDF]](../assets/jmp_rongzhao.pdf)
 - *Under review* at *Journal of Population Economics*
 - *Abstract*: This paper studies time and income allocation in a two-agent family with altruistic preferences, home production of a public good, and voluntary transfers. We first characterize the Nash equilibrium of the non-cooperative game and compare it to the set of Pareto efficient allocations. Then, we analyze a cooperative family in which agents bargain over income shares using the non-cooperative outcome as the disagreement point. Existing non-cooperative household models (Anderberg and Rainer, 2013; Bertrand et al., 2021) show that an increase in one partner's earning capacity can reduce the other's welfare for a non-empty set of parameters. The central result of this paper shows that such welfare conflicts can arise even when the household cooperates. Moreover, cooperation enlarges the parameter region generating welfare conflicts. Although cooperation benefits both agents when earning capacities are fixed, it may amplify welfare conflicts when earning capacities change. These welfare conflicts may create incentives for economic sabotage within the marriage and affect marital stability.
 

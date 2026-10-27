@@ -15,7 +15,7 @@ My research focuses on applied economic topics using applied game theory. I stud
 
 My job market paper, *Time and Income Allocation in Non-cooperative and Cooperative Families*, examines how cooperation within households affects the allocation of time and income. It shows that cooperation can amplify welfare conflicts arising from changes in earning capacity.
 
-[Curriculum Vitae](../assets/CV_RongzhaoZhu.pdf)
+[Curriculum Vitae](../assets/CV_RongzhaoZhu.pdf) | [Job Market Paper](../assets/jmp_rongzhao.pdf)
 
 [Email](mailto:rongzhao.zhu@anu.edu.au): rongzhao.zhu@anu.edu.au
 
