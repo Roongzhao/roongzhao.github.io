@@ -10,6 +10,7 @@ author_profile: true
 ## Conferences and Workshops
 
 ### 2026
+- (Scheduled) International Symposium on Human Capital and Labor Markets, Central University of Finance and Economics (Beijing, China)
 - (Scheduled) Asian and Australasian Society of Labour Economics 2026 Conference, Peking University (Beijing, China)
 - (Scheduled) Econometric Society Australasia Meeting, University of Adelaide (Adelaide, Australia)
 - Australian Conference of Economists, University of Canberra (Canberra, Australia)
@@ -24,7 +25,8 @@ author_profile: true
 
 ## Seminars
 ### 2026
-- (Scheduled) Australian National University (Canberra, Australia)
+- (Scheduled) Wuhan University (Wuhan, China)
+- Australian National University (Canberra, Australia)
   
 ### 2025
 - Central University of Finance and Economics (Beijing, China)
