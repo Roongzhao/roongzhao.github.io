@@ -21,7 +21,7 @@ author_profile: true
 
 ## In Progress
 
-**Measuring Prudence** (with Han Bleichrodt, Jason Doctor, Iván Payá, and Jingni Yang)
+**Measuring Prudence** (with Han Bleichrodt, Iván Payá, and Jingni Yang)
 
 **Childcare, Bargaining, and Grandparental Care** (with José A. Rodrigues-Neto)
 
